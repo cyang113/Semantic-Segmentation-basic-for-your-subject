@@ -1,6 +1,6 @@
 # Semantic-Segmentation-basic-for-your-subject
-##### A paper and its focus and contributions list of semantic segmentation using deep learning
-<br>
+A paper and its focus and contributions list of semantic segmentation using deep learning<br>
+
 |network|VOC12|VOC12 with COCO|Pascal Context|CamVid|Cityscapes|ADE20K|Published In |
 |:-----:|:--------:|:------------------:|:-----------------:|:---------:|:-------------:|:---------:|:-----------:|
 |FCN-8s |62.2      |                    |37.8               |           |65.3           |           |CVPR 2015    |
