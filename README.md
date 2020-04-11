@@ -1,6 +1,6 @@
 # Semantic-Segmentation-basic-for-your-subject
-A paper and its focus and contributions list of semantic segmentation using deep learning<br>
-
+A paper list of semantic segmentation using deep learning<br>
+### performance
 |network|VOC12|VOC12 with COCO|Pascal Context|CamVid|Cityscapes|ADE20K|Published In |
 |:-----:|:--------:|:------------------:|:-----------------:|:---------:|:-------------:|:---------:|:-----------:|
 |FCN-8s |62.2      |                    |37.8               |           |65.3           |           |CVPR 2015    |
@@ -8,7 +8,7 @@ A paper and its focus and contributions list of semantic segmentation using deep
 |CRF-RNN|72.0      |74.7                |39.3               |           |               |           |ICCV 2015    |
 |DeconvNet|72.5    |                    |                   |           |               |           |ICCV 2015    |
 |DPN    |74.1      |77.5                |                   |           |               |           |ICCV 2015    |
-|SegNet |          |                    |                   |50.2       |
+|SegNet |          |                    |                   |50.2       |               |           |
 |Dilation8|        |75.3                |                   |           |               |           |
 |Deeplab v2|       |79.7                |45.7               |           |70.4           |           |PAMI         |
 |FRRN B |          |                    |                   |           |71.8           |           |CVPR 2017    |
@@ -41,3 +41,5 @@ A paper and its focus and contributions list of semantic segmentation using deep
 |GFF|              |                    |                   |           |82.3           |45.33      |arxiv 1904.01803|
 |HRNetV2|          |                    |54.0               |           |81.6           |           |arxiv 1904.04514|
 |CaseNet|          |                    |                   |           |81.9           |45.28      |arxiv 1904.08170|
+
+### focus and contributions
