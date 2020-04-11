@@ -43,8 +43,16 @@ A paper list of semantic segmentation using deep learning<br>
 |CaseNet|          |                    |                   |           |81.9           |45.28      |arxiv 1904.08170|
 
 ## focus and contributions:
-### real-time network
 |network|focus |contributions|
-|:-----:|-----------------|-----------------|
-|ENet|real-time|1. ENet initial block<br>2. ENet bottleneck module<br>![]()|
+|:-----:|:-----------------:|:-----------------------------------------------------------------------------:|
+|FCN    |improve performance|1. fully convolution layer<br>2. skip-architecture|
+|UNet   |improve performance|1. augmentation(shift,rotation and gray value)<br>2. encoder-decoder construction(combine contract feature map and extend feature map)<br>3. weighted loss|
+|DilatedNet|improve performance         |1. aggregates multi-scale contextual information without losing resolution|
+|ENet   |real-time          |1. ENet initial block<br>2. ENet bottleneck module|
+|PixelNet|improve performance|1. multi-scale sampling layer<br>2. sampling pixel to train|
+|SegNet|real-time|1. max-pooling indices(replace the concatenation of feature maps between encoder and decoder)|
+|PSPNet|improve performance|1. pyramid scene parsing network<br>2. auxiliary loss(for refine the learning process)|
+|LinkNet|real-time|1. initial block(downsampling input)<br>2. encoder block(resnet block)<br>3. decoder block(bolttleneck block)|
+|DeepLab(v1~v3+)|improve performance|1. CRF<br>2. dilated conv<br>3. ASPP combine with encoder-decoder<br>4. group conv|
+|ICNet|improve performance|1. cascade input image<br>2. cascade label guidance for traning|
 
