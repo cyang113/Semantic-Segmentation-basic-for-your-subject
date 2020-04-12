@@ -4,6 +4,8 @@
    - [全卷积层取代全连接层](#全卷积层取代全连接层)
    - [skip-architecture](#skip-architecture)
 - [实验情况](#实验情况)
+   - [实验细节](#实验细节)
+   - [实验结果](#实验结果)
 ----------
 ![网络结构](FCN-fig1.png)
 ----------
@@ -34,8 +36,8 @@
    7. 数据增强：通过镜像等方式进行数据增强，但模型性能没有明显提升
 - #### 实验结果
    1. 将FCN-32s、FCN-16s及FCN-8s进行比较，发现down-sampling至8倍时，性能最好。
-   ![](FCN-table2.png)
+![](FCN-table2.png)
    2. 将FCN-8s与之前的一些算法进行比较，可以看到FCN-8s已经取得了截止发稿时的state of the art。
-   ![](FCN-table3.png)
+![](FCN-table3.png)
    3. 采样片（sampling patches）与整图（whole image）训练方式迭代次数差不多，但是run time相差较大。
-   ![](FCN-fig5.png)
+![](FCN-fig5.png)
