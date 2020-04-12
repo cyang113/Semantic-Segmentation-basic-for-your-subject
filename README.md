@@ -1,6 +1,11 @@
 # Semantic-Segmentation-basic-for-your-subject
 A paper list of semantic segmentation using deep learning<br>
-## performance:
+- [论文主要内容快速获取](#论文主要内容快速获取)
+- [论文网络性能表](#论文网络性能表)
+- [论文关注点及贡献](#论文关注点及贡献)
+## 各论文主要内容快速获取
+   1. [FCN](FCN/README.md)
+## 各论文网络性能表
 |network|VOC12|VOC12 with COCO|Pascal Context|CamVid|Cityscapes|ADE20K|Published In |
 |:-----:|:--------:|:------------------:|:-----------------:|:---------:|:-------------:|:---------:|:-----------:|
 |FCN-8s |62.2      |                    |37.8               |           |65.3           |           |CVPR 2015    |
@@ -42,7 +47,7 @@ A paper list of semantic segmentation using deep learning<br>
 |HRNetV2|          |                    |54.0               |           |81.6           |           |arxiv 1904.04514|
 |CaseNet|          |                    |                   |           |81.9           |45.28      |arxiv 1904.08170|
 
-## focus and contributions:
+## 各论文关注点及贡献
 |network|focus |contributions|
 |:-----:|:-----------------:|:-----------------------------------------------------------------------------:|
 |FCN    |improve performance|1. fully convolution layer<br>2. skip-architecture|
