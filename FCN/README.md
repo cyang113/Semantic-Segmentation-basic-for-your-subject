@@ -1,4 +1,4 @@
-# FCN 
+# FCN
 [原文链接在此](https://arxiv.org/pdf/1411.4038.pdf)
 - [论文贡献](#论文贡献)
    - [全卷积层取代全连接层](#全卷积层取代全连接层)
@@ -9,19 +9,19 @@
 ----------
 ## 论文贡献
 - #### 全卷积层取代全连接层
-1. **全连接层**弊端：
-   1. 输入图像尺寸维度固定
-   2. 丢失了空间信息
-2. **全卷积层**优势：
-   1. 维度没有限制
-   2. 保留了空间信息
-   3. 参数与计算量同时大幅减少（无论是infer（前向传播）还是train（后向传播）时，速度快了5倍以上）
-   4. 解决了全连接层没法用于pixel-wise tasks的困难
+   1. **全连接层**弊端：
+      1. 输入图像尺寸维度固定
+      2. 丢失了空间信息
+   2. **全卷积层**优势：
+      1. 维度没有限制
+      2. 保留了空间信息
+      3. 参数与计算量同时大幅减少（无论是infer（前向传播）还是train（后向传播）时，速度快了5倍以上）
+      4. 解决了全连接层没法用于pixel-wise tasks的困难
 - #### skip-architecture
-skip-architecture实际上就是一个decoder，将down-sampling后的feature maps放大至原图大小，以完成pixel-wise tasks。<br>
-第一行是在pool-5后，也就是down-sampling了32倍后，将feature maps还原至原图大小。<br>
-第三行是在down-sampling了8倍后，将feature maps还原至原图大小。（后面的论文称为**FCN-8s**，这样的配置性能最好）<br>
-第二行和第三行这种操作：将下采样后的特征图上采样后，与下采样前的特征图进行conbining。操作后的特征图在一定程度上同时具有：全局及局部语义信息。
+   - skip-architecture实际上就是一个decoder，将down-sampling后的feature maps放大至原图大小，以完成pixel-wise tasks。<br>
+   - 第一行是在pool-5后，也就是down-sampling了32倍后，将feature maps还原至原图大小。<br>
+   - 第三行是在down-sampling了8倍后，将feature maps还原至原图大小。（后面的论文称为**FCN-8s**，这样的配置性能最好）<br>
+   - 第二行和第三行这种操作：将下采样后的特征图上采样后，与下采样前的特征图进行conbining。操作后的特征图在一定程度上同时具有：全局及局部语义信息。<br>
 ![skip-architecture](FCN-fig3.png)
 ## 实验情况
 - #### 实验细节
