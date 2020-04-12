@@ -19,4 +19,4 @@
    3. 参数与计算量同时大幅减少（无论是infer（前向传播）还是train（后向传播）时，速度快了5倍以上）
    4. 解决了全连接层没法用于pixel-wise任务的困难
 #### skip-architecture
-![skip-architecture](FCN/FCN-fig1.jpg)
+![skip-architecture](FCN/FCN-fig3.png)
