@@ -1,8 +1,8 @@
 # Semantic-Segmentation-basic-for-your-subject
 A paper list of semantic segmentation using deep learning<br>
-- [论文主要内容快速获取](#论文主要内容快速获取)
-- [论文网络性能表](#论文网络性能表)
-- [论文关注点及贡献](#论文关注点及贡献)
+- [论文主要内容快速获取](#各论文主要内容快速获取)
+- [论文网络性能表](#各论文网络性能表)
+- [论文关注点及贡献](#各论文关注点及贡献)
 ## 各论文主要内容快速获取
    1. [FCN](FCN/README.md)
 ## 各论文网络性能表
